@@ -1,0 +1,19 @@
+button {
+    width: 25px;
+    height: 50px;
+    border-radius: 20%;
+    border: none;
+    background-color: white;
+    font-size: 1rem;
+
+}
+
+#result, #clear {
+    background-color: #FFAB5B;
+    color: white;
+
+}
+
+body{
+    background-color: #273F4F;
+}

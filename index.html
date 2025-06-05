@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
     <div id="calculator">
@@ -24,8 +25,8 @@
             <button onclick="appendToDisplay('/')">/</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="calculateResult()">=</button>
+            <button onclick="calculateResult()" id ="result">=</button>
+            <button onclick="clearDisplay()" id ="clear">C</button>
             
 
         </div>
